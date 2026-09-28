@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: opus-userbot
+    env: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: MONGO_URL
+        sync: false
+      - key: DB_NAME
+        value: OpusUserbot
+      - key: START_IMG_URL
+        sync: false
+      - key: BOT_NAME
+        value: OpusUserbot
+      - key: SUPPORT_CHAT
+        value: OpusBotSupport
+      - key: UPDATE_CHANNEL
+        value: OpusBotupdate
+      - key: PORT
+        value: 8080
+      - key: AUTODM_DEFAULT
+        value: "True"
+      - key: LOCALE
+        value: en
