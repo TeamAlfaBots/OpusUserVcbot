@@ -29,7 +29,7 @@ class Config:
     # ---- Branding / UI ----
     START_IMG_URL = os.environ.get(
         "START_IMG_URL",
-        "https://telegra.ph/file/opus-userbot-start.jpg",
+        "https://files.catbox.moe/1yr7xp.png",
     )
     BOT_NAME = os.environ.get("BOT_NAME", "OpusUserbot")
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "OpusBotSupport")
