@@ -1,0 +1,62 @@
+{
+  "start_caption": "<b>Hey {full_name}! 👋</b>\n\n<b>{bot_name}</b> me aapka swagat hai.\nMain aapke Telegram account ko ek powerful userbot me badal deta hoon \u2014 Tag All, Auto DM, VC Music aur Meme Sounds ke saath.\n\nNeeche diye buttons se shuru karein 👇",
+
+  "help_menu": "<b>📖 Help Menu</b>\n\nNeeche apna feature chunein, har ek ka apna command set hai.",
+
+  "tagall_help": "<b>🏷 Tag All</b>\n\n<code>.tagall {msg}</code> \u2014 Group ke sabhi members ko ek-ek karke tag karta hai (typing animation ke saath). Message optional hai.\n<code>.cancel</code> \u2014 Chal rahe tagall ko rok deta hai.",
+
+  "autodm_help": "<b>🤖 Auto DM</b>\n\n<code>.autodm on</code> \u2014 Auto DM chalu karein\n<code>.autodm off</code> \u2014 Auto DM band karein\n\nDefault: <b>ON</b>. Jab koi naya user aapko DM karta hai to yeh auto-reply bhejta hai.",
+
+  "vcsong_help": "<b>🎵 VC Song</b>\n\n<code>.play {song name}</code> \u2014 VC me audio play karein\n<code>.vplay {song name}</code> \u2014 VC me video play karein\n<code>.stop</code> \u2014 Playback rokein\n<code>.end</code> \u2014 VC call end karein\n<code>.skip</code> \u2014 Queue ka agla gaana play karein\n\n<i>Note: Group me koi thumbnail/player button nahi dikhega. Sab kuch is bot ke DM se control hota hai.</i>",
+
+  "meme_help": "<b>😂 Meme Sounds</b>\n\n<code>.meme {filename}</code> \u2014 Us naam ki meme/voice clip ko VC me stream karta hai.",
+
+  "login_ask_api_id": "<b>Step 1/5</b>\nApna <b>API ID</b> bhejein (my.telegram.org se milega).",
+  "login_ask_api_hash": "<b>Step 2/5</b>\nApna <b>API HASH</b> bhejein.",
+  "login_ask_number": "<b>Step 3/5</b>\nApna Telegram number bhejein (country code ke saath, jaise <code>+91XXXXXXXXXX</code>).",
+  "login_ask_otp": "<b>Step 4/5</b>\nAapke number par OTP bheja gaya hai. Wo OTP yahan bhejein.\n\n<i>Agar OTP me spaces daalne hain (jaise 1 2 3 4 5) to daal sakte hain.</i>",
+  "login_ask_password": "<b>Step 5/5</b>\nAapke account par 2FA Password laga hai. Please apna password bhejein.",
+  "login_success": "✅ <b>Login Successfully!</b>\n\nEnjoy <b>{bot_name}</b> services \u2014 free!",
+  "login_not_allowed": "⛔ Ye bot private use ke liye hai. Aapko login karne ki permission nahi hai.",
+  "login_limit_reached": "⛔ Login limit ({max_logins}) poori ho chuki hai.",
+  "login_already": "⚠️ Aap already logged in hain. Pehle <code>/logout</code> karein.",
+  "login_failed": "❌ Login fail ho gaya: <code>{error}</code>\n\nDobara try karne ke liye /login bhejein.",
+  "login_cancelled": "❌ Login process cancel kar diya gaya.",
+
+  "logout_success": "✅ Aap successfully logout ho gaye hain.",
+  "logout_none": "⚠️ Aap login nahi hain.",
+
+  "activeac_none": "⚠️ Koi bhi account abhi login nahi hai.",
+  "activeac_entry": "👤 <b>Name:</b> {name}\n<b>Username:</b> @{username}\n<b>ID:</b> <code>{user_id}</code>\n<b>Number:</b> <code>{number}</code>\n<b>Session:</b> <code>{session_status}</code>\n",
+
+  "revoke_usage": "Use: <code>/revoke {user_id}</code>",
+  "revoke_success": "✅ User <code>{user_id}</code> revoked successfully.",
+  "revoke_not_found": "⚠️ Ye ID login nahi mili.",
+
+  "broadcast_usage": "⚠️ Kisi image/video/document/text message ko reply karke <code>/broadcast</code> bhejein.",
+  "broadcast_done": "✅ Broadcast complete.\n\nSuccess: <code>{success}</code>\nFailed: <code>{failed}</code>",
+
+  "owner_only": "⛔ Ye command sirf owner use kar sakta hai.",
+  "not_logged_in": "⚠️ Pehle /login karein is feature ko use karne ke liye.",
+
+  "tagall_started": "🏷 Tagging started...",
+  "tagall_cancelled": "❌ Tagall cancel kar diya gaya.",
+  "tagall_no_task": "⚠️ Koi active tagall nahi chal raha.",
+  "tagall_done": "✅ Tagall complete \u2014 {count} members tagged.",
+
+  "autodm_on": "✅ Auto DM ab <b>ON</b> hai.",
+  "autodm_off": "❌ Auto DM ab <b>OFF</b> hai.",
+  "autodm_greet": "Hey {full_name}, Nice to meet You 👋\nUser is Offline, Waiting for response.\nThank you 🙏",
+
+  "vc_no_song": "Use: <code>.play {song name}</code>",
+  "vc_playing": "🎶 Playing: <b>{title}</b>",
+  "vc_queued": "➕ Queued: <b>{title}</b>",
+  "vc_stopped": "⏹ Playback stopped.",
+  "vc_ended": "📴 VC call ended.",
+  "vc_skipped": "⏭ Skipped to next track.",
+  "vc_queue_empty": "⚠️ Queue khaali hai.",
+  "vc_not_found": "❌ Song nahi mila.",
+
+  "meme_usage": "Use: <code>.meme {filename}</code>",
+  "meme_not_found": "❌ Ye meme file nahi mili."
+}
